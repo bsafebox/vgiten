@@ -3,7 +3,8 @@
   "private": true,
   "homepage": "https://bsafebox.github.io/vgiten",
   "scripts": {
-    "c": "git-cz"
+    "c": "git-cz",
+    "lint": "eslint --fix packages/**/*.js"
   },
   "config": {
     "commitizen": {
@@ -15,7 +16,7 @@
   ],
   "husky": {
     "hooks": {
-      "pre-commit": "echo \" git commit husky\" && lint-staged",
+      "pre-commit": "echo \" git commit husky\" && npm run lint",
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   },
