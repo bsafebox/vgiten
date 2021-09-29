@@ -1,10 +1,9 @@
 {
-  "name": "@bsafebox/vgiten-parser",
+  "name": "parser",
   "version": "0.1.0",
-  "description": "version data diff parser",
+  "description": "data ",
   "keywords": [
-    "encrypt",
-    "decrypt"
+    "encrypt"
   ],
   "author": "lanbery <lanbery@gmail.com>",
   "homepage": "https://bsafebox.github.io/vgiten/tree/main/packages/parser#readme",

@@ -3,12 +3,18 @@
     "packages/*"
   ],
   "version": "independent",
+  "useWorkspaces": true,
+  "npmClient": "yarn",
   "command": {
     "bootstrap": {
       "hoist": true
     },
     "version": {
       "conventionalCommits": true
+    },
+    "create": {
+      "access": "public",
+      "homepage": "https://bsafebox.github.io/vgiten"
     }
   },
   "ignoreChanges": [
