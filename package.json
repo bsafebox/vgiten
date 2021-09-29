@@ -1,7 +1,20 @@
 {
   "name": "vgiten",
   "private": true,
+  "homepage": "https://bsafebox.github.io/vgiten",
+  "scripts": {
+    "c": "git-cz"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-lerna-changelog"
+    }
+  },
+  "husky": {},
+  "lint-staged": {},
   "devDependencies": {
+    "commitizen": "^4.2.4",
+    "cz-lerna-changelog": "^2.0.3",
     "lerna": "^4.0.0"
   }
 }
